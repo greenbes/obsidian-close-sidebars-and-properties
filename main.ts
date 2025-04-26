@@ -7,6 +7,25 @@ export default class AlwaysCloseSidebarsPlugin extends Plugin {
             name: "Close Sidebars and Hide Properties",
             callback: () => this.closeSidebarsAndHideProperties()
         });
+
+        this.addCommand({
+            id: "display-properties-editor",
+            name: "Display Properties Editor",
+            callback: () => this.displayPropertiesEditor()
+        });
+    }
+
+    async displayPropertiesEditor() {
+        const { workspace } = this.app;
+
+        // Retrieve the active view (editor) and show its metadata editor,
+        // if present, by resetting the container's display style.
+        const activeLeaf = workspace.getActiveViewOfType<any>(Object);
+        if (activeLeaf && activeLeaf.metadataEditor) {
+            if (activeLeaf.metadataEditor.containerEl) {
+                activeLeaf.metadataEditor.containerEl.style.display = "";
+            }
+        }
     }
 
     async closeSidebarsAndHideProperties() {
