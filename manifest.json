@@ -2,6 +2,7 @@
   "id": "obsidian-close-sidebars-and-properties",
   "name": "Close Sidebars and Properties",
   "version": "1.0.0",
+  "main": "main.js",
   "minAppVersion": "0.15.0",
   "description": "A plugin that always closes both the left and right sidebars, and hides the Properties view.",
   "author": "Steven Greenberg",
