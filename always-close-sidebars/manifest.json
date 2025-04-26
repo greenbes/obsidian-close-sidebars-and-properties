@@ -1,0 +1,10 @@
+{
+  "id": "always-close-sidebars",
+  "name": "Always Close Sidebars",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "A plugin that always closes the left and right sidebars and hides the Properties view.",
+  "author": "Your Name",
+  "authorUrl": "https://github.com/yourname",
+  "isDesktopOnly": false
+}
