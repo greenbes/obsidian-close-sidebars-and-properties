@@ -27,8 +27,8 @@ export default class AlwaysCloseSidebarsPlugin extends Plugin {
         // Hide Properties view in the active editor
         const activeLeaf = workspace.getActiveViewOfType<any>(Object);
         if (activeLeaf && activeLeaf.metadataEditor) {
-            if (activeLeaf.metadataEditor.containerEl?.parentElement) {
-                activeLeaf.metadataEditor.containerEl.parentElement.style.display = "none";
+            if (activeLeaf.metadataEditor.containerEl) {
+                activeLeaf.metadataEditor.containerEl.style.display = "none";
             }
         }
     }
