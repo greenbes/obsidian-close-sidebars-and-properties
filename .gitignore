@@ -1,3 +1,4 @@
+# Dependency directories
 node_modules/
 # Allow main.js and main.js.map for plugin distribution
 !main.js
