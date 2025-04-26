@@ -2,6 +2,19 @@
 
 An Obsidian plugin that **always closes** the **left** and **right** sidebars, and **hides the Properties view**.
 
+For convenience, I set an environment variable
+
+```shell
+export OBSIDIAN_VAULT="${HOME}/path/to/your/vault"
+```
+
+Then you can use `install` to create the deployment directory and move the files
+
+```shell
+install -d "${OBSIDIAN_VAULT}/.obsidian/plugins/obsidian-close-sidebars-and-properties"
+install -m 644 main.js main.js.map manifest.json "${OBSIDIAN_VAULT}/.obsidian/plugins/obsidian-close-sidebars-and-properties/"
+```
+
 This plugin was written by ChatGPT.
 
 ## ✨ Features
