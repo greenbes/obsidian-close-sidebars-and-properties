@@ -2,6 +2,8 @@
 
 An Obsidian plugin that **always closes** the **left** and **right** sidebars, and **hides the Properties view**.
 
+This plugin was written by ChatGPT.
+
 ## ✨ Features
 
 - Closes the **left sidebar** if open.
@@ -49,6 +51,3 @@ Copy the compiled files (`manifest.json`, `main.js`, `main.js.map`) into your va
 
 This project is licensed under the [MIT License](LICENSE).
 
-## 🧠 Acknowledgments
-
-Built with ❤️ for the Obsidian community.
