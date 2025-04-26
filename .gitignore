@@ -1,4 +1,8 @@
 node_modules/
+# Allow main.js and main.js.map for plugin distribution
+!main.js
+!main.js.map
+# But ignore other JS files
 *.js
 *.js.map
 *.d.ts
