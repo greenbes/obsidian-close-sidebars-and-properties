@@ -1,5 +1,5 @@
 {
-  "name": "always-close-sidebars",
+  "name": "obsidian-close-sidebars-and-properties",
   "version": "1.0.0",
   "description": "Obsidian plugin to close both sidebars and hide Properties view.",
   "main": "main.js",
