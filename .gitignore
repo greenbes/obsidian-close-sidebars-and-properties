@@ -9,3 +9,6 @@ node_modules/
 *.d.ts
 .aider*
 dist/
+
+.DS_Store
+
