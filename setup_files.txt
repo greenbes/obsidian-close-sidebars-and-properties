@@ -1,0 +1,6 @@
+/drop
+/add       .gitignore
+/add       README.md
+/add       main.ts
+/add       manifest.json
+/add       tsconfig.json
