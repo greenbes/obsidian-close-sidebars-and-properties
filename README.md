@@ -22,7 +22,9 @@ This plugin was written by ChatGPT.
 - Closes the **left sidebar** if open.
 - Closes the **right sidebar** if open.
 - Hides the **Properties** panel from the active note.
-- Adds a command that can be triggered manually or bound to a hotkey.
+- Provides two commands:
+  - **Close Sidebars and Hide Properties**: Closes both sidebars and hides the container for the Properties view.
+  - **Display Properties Editor**: Reveals the Properties (metadata) editor for the active note.
 
 ## 🔧 Installation
 
@@ -43,9 +45,10 @@ This plugin was written by ChatGPT.
 Once installed and enabled:
 
 - Open the Command Palette (`Ctrl+P` or `Cmd+P`).
-- Search for the command:  
-  **"Close Sidebars and Hide Properties"**
-- Run the command manually or assign it to a custom hotkey for even faster access.
+- You will find two commands available:
+  - **"Close Sidebars and Hide Properties"**: Closes both sidebars and hides the Properties view.
+  - **"Display Properties Editor"**: Restores the Properties view of the active note.
+- Run the command of your choice manually or assign it to a custom hotkey.
 
 ## 🛠 Development
 
